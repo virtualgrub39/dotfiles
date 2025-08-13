@@ -1,0 +1,39 @@
+separator_block_width=15
+markup=pango
+command=$HOME/.config/i3blocks/scripts/$BLOCK_NAME.sh
+
+[wlan]
+interval=30
+label=<span foreground="#67c8e5">WLAN </span>
+
+[lan]
+interval=30
+label=<span foreground="#67c8e5">ETH </span>
+
+[ram]
+interval=5
+label=<span foreground="#e5e545">DATAMEM </span>
+
+[disk]
+interval=60
+label=<span foreground="#e5e545">PROGMEM </span>
+
+[cpu_pct]
+interval=1
+label=<span foreground="#d97162">CPU </span>
+
+[temp]
+interval=5
+label=<span foreground="#d97162">TEMP </span>
+
+[volume]
+interval=1
+label=<span foreground="#67c8e5">VOL </span>
+
+[battery]
+interval=5
+label=<span foreground="#aba7b0">POWER </span>
+
+[time]
+command=date '+%d-%m-%Y %H:%M:%S'
+interval=1
