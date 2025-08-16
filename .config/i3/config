@@ -202,3 +202,5 @@ bar {
 }
 
 exec_always --no-startup-id feh --bg-fill $HOME/.wallpaper
+
+exec --no-startup-id $HOME/.config/i3/start-gnome-keyring.sh
